@@ -1,9 +1,94 @@
-/*Some necessary adjustments*/
+
+
+/* General */
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  padding: 10px 10px;
 }
+
+ul {
+  list-style-type: none;
+
+}
+
+ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -10px;
+}
+
+
+ol{
+list-style-type: decimal;
+}
+
+ol li:before {
+  content: ')';
+  position: absolute;
+  margin-left: -12px;
+}
+
+
+
+/* Header */
+
+.header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 600px;
+  color: white;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.header h1 {
+  line-height: 600px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+/* Description  */
+
+.description {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+
+}
+
+.description img {
+      width: 40%;
+      margin: 0 30%;
+}
+
+
+/* Ingredients */
+
+.ingredients {
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.ingredients img {
+  width: 40%;
+  margin: 0 30%;
+}
+
+
+/* Directions */
+
+.directions {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
